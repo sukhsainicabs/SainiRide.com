@@ -4,22 +4,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SainiRide.com — All India Permit Cab Service | Fazilka, Punjab</title>
-<meta name="description" content="SainiRide.com - Premium cab & tour service from Fazilka, Punjab. All India Tourist Permit vehicles, professional drivers, Sedan/Ertiga/Innova Crysta/Tempo Traveller. Book on WhatsApp or call now.">
-<meta name="keywords" content="Fazilka cab service, Sukh Saini Cabs, All India Permit taxi, Fazilka to Chandigarh cab, outstation taxi Punjab, tempo traveller Fazilka">
+<meta name="description" content="SainiRide.com - All India cab & tour service, based in Fazilka, Punjab. All India Tourist Permit vehicles, professional drivers, Sedan/Ertiga/Innova Crysta/Tempo Traveller. Book on WhatsApp or call now.">
+<meta name="keywords" content="All India Permit taxi, SainiRide cab service, outstation taxi India, all India to all India cab, tempo traveller Punjab, Fazilka cab service">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://sainiride.com/">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="SainiRide.com — All India Permit Cab Service">
-<meta property="og:description" content="Customers are not our source of income, they are our responsibility. All India Tourist Permit cabs from Fazilka, Punjab.">
+<meta property="og:description" content="Customers are not our source of income, they are our responsibility. All India Tourist Permit cabs — All India to All India.">
 <meta property="og:url" content="https://sainiride.com/">
 <meta property="og:site_name" content="SainiRide.com">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SainiRide.com — All India Permit Cab Service">
-<meta name="twitter:description" content="Premium cab & tour service from Fazilka, Punjab. Book on WhatsApp or call now.">
+<meta name="twitter:description" content="All India cab & tour service — All India to All India. Book on WhatsApp or call now.">
 
 <!-- Structured Data: Local Business -->
 <script type="application/ld+json">
@@ -489,7 +489,7 @@ footer h5{ color:var(--white); font-size:14px; letter-spacing:.05em; text-transf
 
     <div class="hero-copy">
       <span class="eyebrow">All India Tourist Permit</span>
-      <h1>Reliable rides from Fazilka to <em>anywhere in India.</em></h1>
+      <h1>Reliable rides, <em>All India to All India.</em></h1>
       <p class="tagline">Sedan, SUV, Innova Crysta & Tempo Traveller — verified drivers, transparent pricing, and cross-state travel with zero border hassle.</p>
 
       <div class="value-quote">
@@ -531,8 +531,21 @@ footer h5{ color:var(--white); font-size:14px; letter-spacing:.05em; text-transf
         <form id="cabBookingForm" novalidate>
           <div class="form-row">
             <div class="form-group">
+              <label for="name">Your Name <span class="req">*</span></label>
+              <input type="text" id="name" name="name" placeholder="Full name" required>
+              <span class="field-error" id="err-name"></span>
+            </div>
+            <div class="form-group">
+              <label for="mobile">Mobile Number <span class="req">*</span></label>
+              <input type="tel" id="mobile" name="mobile" placeholder="10-digit mobile number" required>
+              <span class="field-error" id="err-mobile"></span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
               <label for="pickup">Pickup Location <span class="req">*</span></label>
-              <input type="text" id="pickup" name="pickup" list="cityList" placeholder="e.g. Fazilka" autocomplete="off" required>
+              <input type="text" id="pickup" name="pickup" list="cityList" placeholder="Enter pickup city" autocomplete="off" required>
               <span class="field-error" id="err-pickup"></span>
             </div>
             <div class="form-group">
@@ -556,13 +569,19 @@ footer h5{ color:var(--white); font-size:14px; letter-spacing:.05em; text-transf
           </div>
 
           <div class="form-group" style="margin-bottom:14px;">
-            <label for="passengers">Number of Passengers <span class="req">*</span></label>
+            <label for="passengers">Number of Passengers to Pickup <span class="req">*</span></label>
             <select id="passengers" name="passengers" required>
-              <option value="">Select passengers</option>
-              <option value="1-4">1–4 Passengers (Sedan)</option>
-              <option value="5-6">5–6 Passengers (Ertiga / SUV)</option>
-              <option value="7-9">7–9 Passengers (Innova Crysta)</option>
-              <option value="10-17">10–17 Passengers (Tempo Traveller)</option>
+              <option value="">Select number of passengers</option>
+              <option value="1">1 Passenger</option>
+              <option value="2">2 Passengers</option>
+              <option value="3">3 Passengers</option>
+              <option value="4">4 Passengers</option>
+              <option value="5">5 Passengers</option>
+              <option value="6">6 Passengers</option>
+              <option value="7">7 Passengers</option>
+              <option value="8">8 Passengers</option>
+              <option value="9">9 Passengers</option>
+              <option value="10+">10+ Passengers</option>
             </select>
             <span class="field-error" id="err-passengers"></span>
           </div>
@@ -605,19 +624,6 @@ footer h5{ color:var(--white); font-size:14px; letter-spacing:.05em; text-transf
             </div>
             <div class="fare-guide-perf"></div>
             <div class="fare-guide-bottom" id="fareNote"></div>
-          </div>
-
-          <div class="form-row">
-            <div class="form-group">
-              <label for="name">Your Name <span class="req">*</span></label>
-              <input type="text" id="name" name="name" placeholder="Full name" required>
-              <span class="field-error" id="err-name"></span>
-            </div>
-            <div class="form-group">
-              <label for="mobile">Mobile Number <span class="req">*</span></label>
-              <input type="tel" id="mobile" name="mobile" placeholder="10-digit mobile number" required>
-              <span class="field-error" id="err-mobile"></span>
-            </div>
           </div>
 
           <div class="form-group" style="margin-bottom:18px;">
@@ -698,7 +704,7 @@ footer h5{ color:var(--white); font-size:14px; letter-spacing:.05em; text-transf
   <div class="container about-grid">
     <div class="about-copy">
       <span class="eyebrow">About Us</span>
-      <h2 style="font-size:clamp(26px,3vw,36px); margin-top:14px;">Fazilka's trusted name in cross-state travel.</h2>
+      <h2 style="font-size:clamp(26px,3vw,36px); margin-top:14px;">All India to All India, one trusted service.</h2>
       <p>SainiRide.com has been serving customers across Punjab, Haryana, Delhi and beyond with a fleet operating under an All India Tourist Permit — meaning no border restrictions, no last-minute permit issues, and no surprises on a long-distance trip.</p>
       <p>Every driver is verified and experienced on long outstation routes, every vehicle is properly insured, and every booking is handled personally — not passed off to a call center.</p>
       <div class="about-stats">
@@ -952,7 +958,7 @@ footer h5{ color:var(--white); font-size:14px; letter-spacing:.05em; text-transf
             <span>All India Permit</span>
           </span>
         </div>
-        <p>Reliable cab & tour service from Fazilka, Punjab, operating under an All India Tourist Permit. Customers are not our source of income — they are our responsibility.</p>
+        <p>Reliable All India cab & tour service, based in Fazilka, Punjab, operating under an All India Tourist Permit. Customers are not our source of income — they are our responsibility.</p>
       </div>
 
       <div>
@@ -1147,18 +1153,51 @@ form.addEventListener('submit', function(e){
   const vName = RATE_CARD[data.vehicle] ? RATE_CARD[data.vehicle].label : data.vehicle;
   const tName = TRIP_LABELS[data.tripType] || data.tripType;
 
+  // Full formatted summary — covers EmailJS templates that just print a single
+  // {{message}} block instead of separate named fields.
+  const bookingSummary =
+    "New Booking Request\n"
+    + "Name: " + data.name + "\n"
+    + "Mobile: " + data.mobile + "\n"
+    + "Pickup: " + data.pickup + "\n"
+    + "Drop: " + data.drop + "\n"
+    + "Date: " + data.date + "\n"
+    + "Time: " + data.time + "\n"
+    + "Passengers: " + data.passengers + "\n"
+    + "Vehicle: " + vName + "\n"
+    + "Trip Type: " + tName + "\n"
+    + "Customer Message: " + (data.message || "—");
+
+  // NOTE: sending both a full "message" summary AND individual fields under a
+  // few common naming conventions (customer_name/from_name/name, etc.) so this
+  // matches your existing EmailJS template (template_ji0ju9a) regardless of
+  // which variable names it uses. If the email still looks off after testing,
+  // open the template in your EmailJS dashboard, check the exact {{variable}}
+  // names used in the template body, and tell me those names — I'll match them exactly.
   const templateParams = {
     to_email: "Sukhsainicabs@gmail.com",
+    message: bookingSummary,
+    booking_details: bookingSummary,
     customer_name: data.name,
+    from_name: data.name,
+    name: data.name,
     customer_mobile: data.mobile,
+    mobile: data.mobile,
+    phone: data.mobile,
     pickup_location: data.pickup,
+    pickup: data.pickup,
     drop_location: data.drop,
+    drop: data.drop,
     travel_date: data.date,
+    date: data.date,
     travel_time: data.time,
+    time: data.time,
     passengers: data.passengers,
     vehicle_type: vName,
+    vehicle: vName,
     trip_type: tName,
-    message: data.message || "—"
+    trip: tName,
+    customer_message: data.message || "—"
   };
 
   if(window.emailjs){
